@@ -11,7 +11,6 @@ In this problem you will create custom-made functions for creating geometries. W
 from shapely.geometry import Point, LineString, Polygon
 # YOUR CODE HERE 1 to define create_point_geom()
 ```
-
 Test your function by running these code cells:
 
 
@@ -42,7 +41,7 @@ print(point1.geom_type)
 ```python
 # YOUR CODE HERE 2 to define create_line_geom()
 ```
-
+create_line_geom()=
 Demonstrate the usage of your function; For example, create a line object with two points: `Point(45.2, 22.34)` & `Point(100.22, -3.20)` and store the result in a variable called `line1`:
 
 

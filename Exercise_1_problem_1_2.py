@@ -11,7 +11,9 @@
 
 from shapely.geometry import Point, LineString, Polygon
 #YOUR CODE HERE 1 to define create_point_geom()
-
+create_point_geom()=Point(x_coord,y_coord)
+point=Point(x_coord,y_coord)
+return point
 # Test your function by running these code cells:
 
 # CODE FOR TESTING YOUR SOLUTION

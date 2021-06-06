@@ -99,7 +99,7 @@ assert len(dest_points) == len(data), "Number of destination points must be the 
 # 
 
 # YOUR CODE HERE 5
-
+lines=[]
 
 # CODE FOR TESTING YOUR SOLUTION
 
@@ -118,7 +118,6 @@ print('lines length:', len(lines))
 
 # YOUR CODE HERE 6 to append LineString to lines
 #raise NotImplementedError()
-from shapely.geometry import LineString
 
 # CODE FOR TESTING YOUR SOLUTION
 

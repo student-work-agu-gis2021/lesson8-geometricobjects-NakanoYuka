@@ -30,6 +30,7 @@ print(point1.geom_type)
 
 # YOUR CODE HERE 2 to define create_line_geom()
 def create_line_geom(points):
+  #Divide by conditions
   assert type(points)=="Input should be a list!"
   assert len(points)>= 2,"LineString object requires at least two Points!"
   line = LineString([points[0], points[1]])
@@ -70,6 +71,7 @@ except Exception as e:
 
 # YOUR CODE HERE 4 to define create_poly_geom()
 def create_line_geom(coords):
+  #devide by conditions
   assert type(coords) is list,"Input should be a list!"
   assert len(coords)>=3, "Polygon object requires at least three Points!"
   for i in coords:
